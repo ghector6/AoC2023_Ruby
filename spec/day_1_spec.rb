@@ -24,4 +24,10 @@ RSpec.describe Extractor do
     numbers = output.get_numbers("treb7uchet")
     expect(numbers).to be(77)
   end
+
+  it "obtains 77 from this input treb7uchet" do
+    output = Extractor.new
+    numbers = output.get_numbers("treb7uchet")
+    expect(numbers).to be(77)
+  end
 end
